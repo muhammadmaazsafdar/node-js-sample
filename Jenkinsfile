@@ -27,7 +27,7 @@ pipeline {
         stage('Start Application') {
             steps {
                 sh 'nohup npm start &'
-                echo "Application is running on http://<your-azure-ip>:3000"
+                echo "Application is running on http://135.235.216.79:3000"
             }
         }
     }
